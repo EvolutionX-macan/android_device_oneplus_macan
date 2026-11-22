@@ -13,6 +13,9 @@ $(call inherit-product, device/oneplus/macan/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Evolution X
+TARGET_HAS_UDFPS := true
+
 PRODUCT_NAME := lineage_macan
 PRODUCT_DEVICE := macan
 PRODUCT_MANUFACTURER := OnePlus
